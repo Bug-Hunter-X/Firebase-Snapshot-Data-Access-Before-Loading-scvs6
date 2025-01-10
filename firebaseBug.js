@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you attempt to access a property on a snapshot before it has fully loaded. This can often manifest as `undefined` values when you expect data.  A common scenario is using `.val()` on a query snapshot before the `.once()` or `.on()` method has finished its asynchronous operation.
