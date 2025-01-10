@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Firebase applications: attempting to access data from a database snapshot before it has fully loaded. The `firebaseBug.js` file shows the erroneous code, resulting in undefined values. The solution, shown in `firebaseBugSolution.js`, utilizes promises or async/await to ensure data is loaded before access.
